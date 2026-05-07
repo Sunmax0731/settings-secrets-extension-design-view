@@ -1,0 +1,19 @@
+{
+  "product": {
+    "repository": "settings-secrets-extension-design-view",
+    "title": "設定・秘密値・拡張設計ビュー"
+  },
+  "items": [
+    {
+      "id": "ok-1",
+      "title": "設定・秘密値・拡張設計ビュー 正常ケース",
+      "source": "source-ok",
+      "settingKey": "settingKey-ok",
+      "safeValue": "safeValue-ok",
+      "owner": "owner-ok",
+      "acceptance": "acceptance-ok",
+      "status": "ready",
+      "secretRisk": "ready"
+    }
+  ]
+}
