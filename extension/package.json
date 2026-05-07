@@ -1,0 +1,24 @@
+{
+  "name": "settings-secrets-extension-design-view",
+  "displayName": "設定・秘密値・拡張設計ビュー",
+  "version": "0.1.0",
+  "publisher": "sunmax0731",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:settings-secrets-extension-design-view.open"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "settings-secrets-extension-design-view.open",
+        "title": "設定・秘密値・拡張設計ビュー"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "createdIdea": "D:\\AI\\VSCodeExtension\\created_idea_005_settings-secrets-extension-design-view",
+  "zip": "D:\\AI\\VSCodeExtension\\created_idea_005_settings-secrets-extension-design-view\\idea_005_settings-secrets-extension-design-view.zip",
+  "rank": 35,
+  "domain": "VSCodeExtension",
+  "ideaNo": 5,
+  "title": "設定・秘密値・拡張設計ビュー",
+  "overview": ".env、settings.json、contributes.configuration、コマンドパレットを管理する。入力、確認、履歴保存、次アクションを同じ作業単位で扱えるようにする。",
+  "problem": "設定差分や秘密値の混入に気づきにくい。",
+  "differentiation": "差分、警告、GUI編集を安全な確認フローにする。"
+}
