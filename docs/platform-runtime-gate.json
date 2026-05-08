@@ -1,0 +1,11 @@
+{
+  "product": "settings-secrets-extension-design-view",
+  "title": "設定・秘密値・拡張設計ビュー",
+  "domain": "VSCodeExtension",
+  "ideaNo": 5,
+  "platformType": "vscode-extension",
+  "expectedPublicTarget": "GitHub Release / VSIX",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
