@@ -2,31 +2,60 @@
   "product": "settings-secrets-extension-design-view",
   "repository": "Sunmax0731/settings-secrets-extension-design-view",
   "githubUrl": "https://github.com/Sunmax0731/settings-secrets-extension-design-view",
-  "tag": "v0.1.0-alpha.1",
   "releaseUrl": "https://github.com/Sunmax0731/settings-secrets-extension-design-view/releases/tag/v0.1.0-alpha.1",
+  "tag": "v0.1.0-alpha.1",
   "prerelease": true,
   "latest": false,
+  "latestCheck": {
+    "endpoint": "not-found-or-no-stable-release",
+    "latestTag": null,
+    "latestIsThisPrerelease": false
+  },
   "assetCount": 3,
-  "assets": [
-    "settings-secrets-extension-design-view-docs.zip",
-    "manual-test.md",
-    "strict-manual-test-addendum.md"
-  ],
-  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
-  "platformType": "vscode-extension",
-  "manualTest": "not-run-by-codex",
+  "assets": {
+    "required": [
+      "dist/settings-secrets-extension-design-view-docs.zip",
+      "docs/manual-test.md",
+      "docs/strict-manual-test-addendum.md"
+    ],
+    "actualNames": [
+      "manual-test.md",
+      "settings-secrets-extension-design-view-docs.zip",
+      "strict-manual-test-addendum.md"
+    ],
+    "actualCount": 3,
+    "allRequiredPresent": true
+  },
   "qcdsEvaluation": {
     "Quality": "S-",
     "Cost": "S-",
     "Delivery": "S-",
-    "Satisfaction": "S-",
-    "capReason": "manual-test-not-run-by-codex"
+    "Satisfaction": "S-"
   },
-  "github": {
-    "repo": "Sunmax0731/settings-secrets-extension-design-view",
-    "url": "https://github.com/Sunmax0731/settings-secrets-extension-design-view",
-    "releaseUrl": "https://github.com/Sunmax0731/settings-secrets-extension-design-view/releases/tag/v0.1.0-alpha.1",
-    "prerelease": true,
-    "latest": false
+  "platformRuntimeGate": {
+    "product": "settings-secrets-extension-design-view",
+    "platformType": "vscode-extension",
+    "pass": true,
+    "method": "runtime-gate",
+    "manualTest": "not-run-by-codex",
+    "packagePath": "extension/package.json",
+    "main": "extension\\src\\extension.js"
+  },
+  "automatedTests": [
+    {
+      "command": "npm test",
+      "result": "passed"
+    }
+  ],
+  "manualTest": "not-run-by-codex",
+  "git": {
+    "ahead": 0,
+    "behind": 0,
+    "status": "",
+    "localCodex": [
+      "codex/closed-alpha-release"
+    ],
+    "remoteCodex": [],
+    "clean": false
   }
 }
