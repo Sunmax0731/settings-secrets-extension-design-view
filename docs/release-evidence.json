@@ -1,0 +1,32 @@
+{
+  "product": "settings-secrets-extension-design-view",
+  "repository": "Sunmax0731/settings-secrets-extension-design-view",
+  "githubUrl": "https://github.com/Sunmax0731/settings-secrets-extension-design-view",
+  "tag": "v0.1.0-alpha.1",
+  "releaseUrl": "https://github.com/Sunmax0731/settings-secrets-extension-design-view/releases/tag/v0.1.0-alpha.1",
+  "prerelease": true,
+  "latest": false,
+  "assetCount": 3,
+  "assets": [
+    "settings-secrets-extension-design-view-docs.zip",
+    "manual-test.md",
+    "strict-manual-test-addendum.md"
+  ],
+  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
+  "platformType": "vscode-extension",
+  "manualTest": "not-run-by-codex",
+  "qcdsEvaluation": {
+    "Quality": "S-",
+    "Cost": "S-",
+    "Delivery": "S-",
+    "Satisfaction": "S-",
+    "capReason": "manual-test-not-run-by-codex"
+  },
+  "github": {
+    "repo": "Sunmax0731/settings-secrets-extension-design-view",
+    "url": "https://github.com/Sunmax0731/settings-secrets-extension-design-view",
+    "releaseUrl": "https://github.com/Sunmax0731/settings-secrets-extension-design-view/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  }
+}

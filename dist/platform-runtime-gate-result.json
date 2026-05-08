@@ -1,0 +1,9 @@
+{
+  "product": "settings-secrets-extension-design-view",
+  "platformType": "vscode-extension",
+  "pass": true,
+  "method": "runtime-gate",
+  "manualTest": "not-run-by-codex",
+  "packagePath": "extension/package.json",
+  "main": "extension\\src\\extension.js"
+}
